@@ -1,0 +1,25 @@
+Selection Sort Projesi
+
+[22,27,16,2,18,6] -> Insertion Sort
+
+1: 22 seçildi.
+2: 27 seçildi. 22, 27'den büyük bu durumda burada bir işlem yok.
+3: 16 seçildi. ilk indise taşındı. Dizimiz şuna döndü : [16,22,27,2,18,6]
+4: 2 seçildi. ilk indise taşındı. Dizimiz şuna döndü : [2,16,22,27,18,6]
+5: 18 seçildi. üçüncü indise taşındı. Dizimiz şuna döndü : [2,16,18,22,27,6]
+6: 6 seçildi. ikinci indise taşındı. Dizimiz şuna döndü : [2,6,16,18,22,27]
+Insertion Sort işlemi tamamlandı.
+
+Big-O : O(36)
+18 sayısı sondan ikinci indistir. Worst case'e girer.
+
+
+
+[7,3,5,8,2,9,4,15,6] -> Selection Sort
+
+1: En küçük değerli eleman 2 bulundu.
+2: 7 ile 2'nin yeri değişti. Dizimiz şuna döndü : [2,3,5,8,7,9,4,15,6]
+3: En küçük değerli eleman 3 bulundu. Zaten ikinci indiste. 
+4: En küçük eleman 4 bulundu. 
+5: 5 ile 4'ün yeri değişti. Dizimiz şuna döndü : [2,3,4,8,7,9,5,15,6]
+6: Bu şekilde devam eder...
